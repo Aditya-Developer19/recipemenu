@@ -1,3 +1,3 @@
 # recipemenu
-first repository 
+first repository.
 author- aditya chauhan
