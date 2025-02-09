@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navcontainer{
+    width: 100vw;
+    min-height: 60px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-bottom: 2px solid black;
+    width:auto;
+    overflow-x: none;
+   
+    
+}
+a{
+ text-decoration: none;   
+ color: white;
+}
+
+#navlist{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between; 
+    font-size: 2.5rem;
+    overflow-x: none;
+    
+}
+#navhead2{
+    display: flex;
+    gap: 25px;
+    padding-top: 5px;
+   
+}
+#navhead{
+    color: white;
+    padding-top: 5px;
+}
+.footcontainer{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    width: 100%;
+    color: azure;
+    text-align: center;
+    margin: 10px;
+    
+
+}
+.itemcontainer{
+    width: 80%;
+    border: 1px solid black ;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    box-shadow: 2px 2px 5px 1px black;
+}
+.item1 , .item2 , .item3{
+    width: 70%;
+    height: 400px;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(0deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    border-radius: 15px;
+    border: 2px solid  yellow;
+    box-shadow: #b08080;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+#img1 , #img2 , #img3{
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid brown;
+    margin: 5px;
+    margin-right: 10px;
+    
+}
+.barfibox , .rasgullabox , .jalebibox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+#ing1 , #ing2 , #ing3{
+    list-style: none;
+}
+#proc1 , #proc2 , #proc3{
+    list-style: none;
+
+}
+#heading1 , #heading2 , #heading3{
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+#inghead ,#prochead ,#inghead2, #inghead3, #prochead2, #prochead3 {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+}
